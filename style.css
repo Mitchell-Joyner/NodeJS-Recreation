@@ -6,7 +6,6 @@ header,footer{
 #banner{
     height: 25%;
     width: inherit;
-    border: solid green 5px;
 }
 #main{
     height: 60%;
@@ -23,11 +22,18 @@ p{
 #banner div img{
     width: inherit;
 }
-#logo div{
+#logo{
   width: 100%;
   height: auto;
+  margin: auto;
 }
-#logo div img{
-  width: auto;
-  height: 50%;
+nav{
+  width: 55%;
+  height: auto;
+  margin: auto;
+}
+nav a{
+  font-size: 18px;
+  margin:0 auto;
+  color: white;
 }
