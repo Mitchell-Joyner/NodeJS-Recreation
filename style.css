@@ -12,8 +12,11 @@ header,footer{
     width: 100%;
 }
 p{
-    font-size: 24px;
+    font-size: 20px;
     margin: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #333;
 }
 #banner div{
     width: 100%;
@@ -23,17 +26,48 @@ p{
     width: inherit;
 }
 #logo{
-  width: 100%;
+  width: 200px;
   height: auto;
-  margin: auto;
+  margin: 0 auto;
+}
+#logo img{
+  width: inherit;
+  height: auto;
 }
 nav{
-  width: 55%;
+  width: 42.5%;
   height: auto;
   margin: auto;
 }
 nav a{
-  font-size: 18px;
-  margin:0 auto;
+  font-size: 14px;
+  margin: 0 auto;
   color: white;
+  font-family: sans-serif;
+}
+h1{
+  font-size: 24px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #333;
+  font-weight: 400;
+}
+#leftbutton{
+  width: 20%;
+  margin: 25px;
+  background-color: #026e00;
+}
+#leftbutton h1{
+  font-size: 24px;
+  color: white;
+
+}
+#leftbutton p{
+  font-size: 12px;
+  color: white;
+}
+#rightbutton{
+    width: 20;
+    margin: 25px;
+    background-color: #026e00;
 }
